@@ -41,7 +41,7 @@ const App = () => {
   );
 
   return (
-    <div>
+    <div className={styles.mainDiv}>
       <h1 className={styles.title}>Phonebook</h1>
       <ContactForm addContact={handleAddContact} />
       <h2 className={styles.title}>Contacts</h2>

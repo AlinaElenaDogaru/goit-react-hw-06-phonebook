@@ -1,7 +1,7 @@
 /* Filter.module.css */
 .input {
     display: flex;
-    width: 50%;
+    width: 51%;
     padding: 8px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -9,4 +9,6 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
 }
